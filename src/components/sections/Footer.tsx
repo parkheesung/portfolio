@@ -6,31 +6,26 @@ const FooterSection = () => {
             <div className="row">
                 <div className="col-md-6 col-lg-6">
                     <img src="/images/logo_gray.png" alt="footer logo" className="img-fluid mb-4" />
-                    <p className="footer__info--text">A variety of topics, we'd like to explore,
-                    Sharing thoughts and ideas, forever more,
-                    So come, let us chat and connect,
-                    And make our bond, truly perfect.</p>
+                    <p className="footer__info--text">SNS를 통해 다양하게 소통하고 대화합니다.</p>
 
                     <ul className="social__links">
                         <li>
-                            <a href="https://www.facebook.com/JO.roslyn.dev" target="_blank">
-                                <img src="/images/facebook-icon.svg" alt="fb" className="img-fluid" />
+                            <a href="https://www.facebook.com/rosylndev" target="_blank">
+                            <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/parkheesung97" target="_blank">
-                                <img src="/images/twitter-icon.svg" alt="tw" className="img-fluid" />
+                            <i className="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/parkheesung/" target="_blank">
-                                <img src="/images/linked-in-icon.svg" alt="in" className="img-fluid" />
+                            <a href="https://roslyndev.tistory.com" target="_blank">
+                            <i className="fa-solid fa-blog"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/parkheesung" target="_blank">
-                                <img src="/images/github-icon.svg" alt="gh" className="img-fluid" />
-                            </a>
+                            <a href="https://github.com/roslyndev" target="_blank"><i className="fa-brands fa-github"></i></a>
                         </li>
                     </ul>
                 </div>

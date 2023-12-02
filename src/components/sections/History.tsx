@@ -41,11 +41,11 @@ const HistorySection = () => {
 
 
             <div className="section-title max-title">
-                <h3>My History</h3>
+                <h3>이력사항</h3>
             </div>
             <p className="lead p-3 centered-text text-center mx-auto">
-            It ran without stopping in the middle.
-            I wanted to work for a long time, but small and medium-sized companies didn't have a long lifespan.
+            처음 이 일을 시작한 이래로 쉼 없이 달려왔습니다.
+            지금도 저는 개발일을 즐기고 있으며, 향후 노인이 되어서도 타이핑하는 개발자로 남고 싶습니다.
             </p>
 
             <section className="cd-timeline js-cd-timeline">
@@ -77,7 +77,7 @@ const HistorySection = () => {
                             <button type="button" className="popup" data-value="/images/portfolio/screen_chart_diveroid.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                             <p><a href="https://lomin.ai" target="_blank">Lomin</a> Document Control UI - <code>JQuery</code></p>
-                            <p><a href="https://www.lifesensor.co.kr/" target="_blank">LifeSensor</a> Back API - <code>ASP.NET, Socket.io</code></p>
+                            <p><a href="#">LifeSensor</a> Back API - <code>ASP.NET, Socket.io</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -161,7 +161,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2006.12</div>
-                            <h4 className="m-0">Short-term contract</h4>
+                            <h4 className="m-0">단기계약직</h4>
                             <p><a href="#">링크빌</a> 전자세금계산서 <code>ASP, Soap</code></p>
                             <p><a href="#">(주)화미</a> SCM대량 수발주 시스템 - <code>ASP</code></p>
                             <p><a href="#">Weltizen</a> 다이어트 솔루션 - <code>ASP</code></p>

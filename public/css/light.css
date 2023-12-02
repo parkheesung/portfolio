@@ -85,9 +85,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "SUITE-Regular", "Roboto", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4432,12 +4439,13 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  padding: 0.35rem 0.25rem 0.35rem 0.35rem;
+  font-size: 0.8rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  text-align: center;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -10411,6 +10419,8 @@ a:hover {
   margin-right: 0.5rem;
   width: 30px;
   height: 30px;
+  box-sizing: border-box;
+  padding:0;
 }
 
 .social__links li a {
@@ -10430,6 +10440,9 @@ a:hover {
 
 .light .social__links li a {
   background: #d7dbf2;
+  font-size:0.8rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .light .social__links li a img {
@@ -10462,4 +10475,13 @@ a:hover {
 
 .copyright__text {
   opacity: 0.7;
+}
+
+.text-sm {
+  font-size:0.9rem;
+}
+
+.small-img img {
+  max-width: 100px;
+  height: auto;
 }
