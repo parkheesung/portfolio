@@ -1,0 +1,51 @@
+.popup {
+    clear:both;
+    font-size:10px;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+    outline:none;
+}
+
+#popupLayer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border:2px solid #CACACA;
+    padding:16px 16px;
+    background-color:#FFF;
+    border-radius:16px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.17);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.17);
+    overflow:hidden;
+}
+
+#popupLayer div {
+    width:100%;
+    max-height: 500px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+#popupLayer div img {
+    width:100%;
+    height: auto;
+}
+
+#popupLayer button {
+    position:absolute;
+    right:5px;
+    top:5px;
+    clear:both;
+    font-size:12px;
+    border:1px solid #AAAAAA;
+    border-radius:15px;
+    background-color:#FFF;
+    cursor:pointer;
+    outline:none;
+    color:#AAAAAA;
+}
