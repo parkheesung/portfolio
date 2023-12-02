@@ -47,9 +47,9 @@ const MiddleSection = () => {
                 </div>
                 <div className="col-12 col-md-4">
                     <div className="feature-item">
-                        <img src="/images/core_jquery.png" alt="typescript" className="featured-item-icon" />
-                        <h4 className="featured-item-title">JQuery</h4>
-                        <p>JQuery is now becoming a relic of the past, but it still boasts a high share, a lot of templates use it, and it's a familiar and familiar tool.</p>
+                        <img src="/images/vuejs.png" style={{width:'100px', height:'auto'}} alt="typescript" className="featured-item-icon" />
+                        <h4 className="featured-item-title">Vue.js</h4>
+                        <p>The usage of Vue.js is increasing, especially in large corporations and government offices, and it is highly efficient in maintenance and has good compatibility with TypeScript.</p>
                     </div>
                 </div>
             </div>

@@ -38,12 +38,6 @@ const FooterSection = () => {
                     <p className="footer-col__head">Contact Us</p>
 
                     <div className="contact__address">
-                        <p>77, Manseok-ro 159beon-gil, 
-                            <br/> Jangan-gu, Suwon-si, Gyeonggi-do
-                            <br/> NamseoulGreen-Mansion 101,1407 </p>
-
-                        <p> Phone: 010.3255.0295</p>
-
                         <p> Email: yunlang97@naver.com</p>
                     </div>
                 </div>

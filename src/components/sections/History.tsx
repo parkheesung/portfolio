@@ -50,12 +50,24 @@ const HistorySection = () => {
 
             <section className="cd-timeline js-cd-timeline">
                 <div className="cd-timeline__container">
+                <div className="cd-timeline__block js-cd-block">
+                        <div className="cd-timeline__milestone"> </div>
+                        <div className="cd-timeline__content js-cd-content">
+                            <div className="cd-timeline__date">2023.9</div>
+                            <h4>Alporter <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
+                            <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, SignalR</code></p>
+                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js</code></p>
+                            <p><a href="#">Homepage</a>  - <code>React.js</code></p>
+                            <p><a href="#">Api Hub</a> WebService - <code>ASP.NET, SignalR</code></p>
+                            <p><a href="#">PDA</a> RFID Reader App - <code>Android</code></p>
+                        </div>
+                    </div>
                     <div className="cd-timeline__block js-cd-block">
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2022.3</div>
-                            <h4>Eyemcast Inc</h4>
-                            <p><a href="http://deepinspection.ai" target="_blank">DeepInspection</a> Backend API - <code>Node.js</code></p>
+                            <h4>Eyemcast <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
+                            <p><a href="http://deepinspection.ai" target="_blank">DeepInspection</a> Backend API - <code>Node.js, React.js</code></p>
                             <p><a href="http://www.drcmedia.co.kr" target="_blank">Drcmedia</a> VR media Player - <code>Unity3D</code>
                             <button type="button" className="popup" data-value="/images/portfolio/Group 26.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
@@ -73,8 +85,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2019.12</div>
                             <h4>Exmaru</h4>
-                            <p><a href="https://www.merrytoktok.com">MerryTokTok</a> Total Community - <code>ASP.NET, SignalR, Crawling</code></p>
-                            <p><a href="https://www.myhomelauncher.com">HomeLauncher</a> Home Page - <code>React.js</code></p>
+                            <p><a href="https://www.merrytoktok.com">MerryTokTok</a> Total Community - <code>React.js, Vue.js, Crawling</code></p>
                             <p><a href="#">Muse</a> WebService - <code>ASP.NET, SignalR</code></p>
                             <p><a href="#">Muse</a> Background Service - <code>C#</code></p>
                             <p><a href="#">Muse</a> AI Keras LSTM - <code>Python, Tensorflow</code></p>
@@ -92,7 +103,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2017.4</div>
-                            <h4>UVC Inc</h4>
+                            <h4>UVC <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
                             <p><a href="http://www.sgcenergy.co.kr" target="_blank">SGC Energy</a> 원격검침 - <code>ASP.NET, SignalR</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/RMMS_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
@@ -116,7 +127,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2014.12</div>
-                            <h4>Longtukorea Inc (inet-school)</h4>
+                            <h4>Inet-school <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
                             <p><a href="http://www.dreamson.co.kr" target="_blank">DreamsOn Edu</a> 영어인강서비스 - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/Dreamson_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
@@ -127,7 +138,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2012.4</div>
-                            <h4 className="m-0">Netdiver Inc</h4>
+                            <h4 className="m-0">Netdiver <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
                             <p><a href="#">미래선도과제</a> 미래부 R&D 과제(2년) - <code>ASP.NET, Android</code></p>
                             <p><a href="#">삼성/LG등 대기업</a> Facebook App - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/Facebook.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
@@ -138,7 +149,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2011.3</div>
-                            <h4>inet-school Inc</h4>
+                            <h4>Inet-school <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
                             <p><a href="#">Studymap</a> 자기주도학습 - <code>ASP.NET</code></p>
                             <p><a href="#">Selfgong.com</a> 조선일보 자기주도학습 - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/selfgong_02.gif" onClick={fnPopup}><i className="fa fa-search"></i></button>
