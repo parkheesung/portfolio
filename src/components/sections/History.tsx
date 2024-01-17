@@ -55,10 +55,10 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2023.9</div>
                             <h4>Alporter <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, SignalR</code></p>
-                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js</code></p>
-                            <p><a href="#">Homepage</a>  - <code>React.js</code></p>
-                            <p><a href="#">Api Hub</a> WebService - <code>ASP.NET, SignalR</code></p>
+                            <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, Nest.js</code></p>
+                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js, Nest.js</code></p>
+                            <p><a href="#">Homepage</a>  - <code>React.js, Nest.js</code></p>
+                            <p><a href="#">Api Hub</a> WebService - <code>Nest.js, MSSQL</code></p>
                             <p><a href="#">PDA</a> RFID Reader App - <code>Android</code></p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const HistorySection = () => {
                             <button type="button" className="popup" data-value="/images/portfolio/screen_chart_diveroid.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                             <p><a href="https://lomin.ai" target="_blank">Lomin</a> Document Control UI - <code>JQuery</code></p>
-                            <p><a href="#">LifeSensor</a> Back API - <code>ASP.NET, Socket.io</code></p>
+                            <p><a href="#">LifeSensor</a> Back API - <code>Node.js, Socket.io</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
