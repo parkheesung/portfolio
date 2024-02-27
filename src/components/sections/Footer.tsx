@@ -15,7 +15,7 @@ const FooterSection = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/parkheesung97" target="_blank">
+                            <a href="https://twitter.com/roslyn_dev" target="_blank">
                             <i className="fa-brands fa-twitter"></i>
                             </a>
                         </li>
@@ -39,7 +39,7 @@ const FooterSection = () => {
             </div>
 
             <div className="text-center mt-5">
-                <p className="copyright__text mb-0"><small>Copyright ©2023. All rights reserved. Parkheesung.github.io</small></p>
+                <p className="copyright__text mb-0"><small>Copyright ©2024. All rights reserved. Parkheesung.github.io</small></p>
             </div>
         </div>
     </footer>

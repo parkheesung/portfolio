@@ -55,11 +55,12 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2023.9</div>
                             <h4>Alporter <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, Nest.js</code></p>
-                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js, Nest.js</code></p>
+                            <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, Nest.js, TypeORM</code></p>
+                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
+                            <p><a href="https://contract.alporter.co.kr">온라인견적서</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
                             <p><a href="#">Homepage</a>  - <code>React.js, Nest.js</code></p>
-                            <p><a href="#">Api Hub</a> WebService - <code>Nest.js, MSSQL</code></p>
-                            <p><a href="#">PDA</a> RFID Reader App - <code>Android</code></p>
+                            <p><a href="#">Api Hub</a> WebService - <code>ASP.NET, EntityFramework</code></p>
+                            <p><a href="#">PDA</a> RFID Reader App - <code>Android, Java</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -67,17 +68,17 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2022.3</div>
                             <h4>Eyemcast <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="http://deepinspection.ai" target="_blank">DeepInspection</a> Backend API - <code>Node.js, React.js</code></p>
-                            <p><a href="http://www.drcmedia.co.kr" target="_blank">Drcmedia</a> VR media Player - <code>Unity3D</code>
+                            <p><a href="http://deepinspection.ai" target="_blank">DeepInspection</a> Backend API - <code>Node.js, Sequelize, React.js</code></p>
+                            <p><a href="http://www.drcmedia.co.kr" target="_blank">Drcmedia</a> VR media Player - <code>Unity3D, C#</code>
                             <button type="button" className="popup" data-value="/images/portfolio/Group 26.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Backend API - <code>Node.js</code></p>
+                            <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Backend API - <code>Node.js, Sequelize</code></p>
                             <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Manager System - <code>React.js</code></p>
                             <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Custom Chart - <code>D3.js</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/screen_chart_diveroid.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                             <p><a href="https://lomin.ai" target="_blank">Lomin</a> Document Control UI - <code>JQuery</code></p>
-                            <p><a href="#">LifeSensor</a> Back API - <code>Node.js, Socket.io</code></p>
+                            <p><a href="#">LifeSensor</a> Back API - <code>Node.js, Sequelize, Socket.io</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -88,7 +89,7 @@ const HistorySection = () => {
                             <p><a href="https://www.merrytoktok.com">MerryTokTok</a> Total Community - <code>React.js, Vue.js, Crawling</code></p>
                             <p><a href="#">Muse</a> WebService - <code>ASP.NET, SignalR</code></p>
                             <p><a href="#">Muse</a> Background Service - <code>C#</code></p>
-                            <p><a href="#">Muse</a> AI Keras LSTM - <code>Python, Tensorflow</code></p>
+                            <p><a href="#">Muse</a> AI Keras LSTM - <code>Python, Tensorflow, Keras</code></p>
                             <p><a href="#">SmartFactory</a> Remote Monitoring - <code>C#</code></p>
                             <p><a href="#">Golfbox</a> Mobile App - <code>Xamarin</code>
                             <button type="button" className="popup" data-value="/images/portfolio/golfbox_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>

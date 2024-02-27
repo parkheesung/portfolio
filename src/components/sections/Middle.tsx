@@ -22,12 +22,12 @@ const MiddleSection = () => {
                 </div>
                 <div className="col-12 col-md-4">
                     <div className="feature-item">
-                        <img src="/images/core_node.png" alt="node.js" className="featured-item-icon" />
-                        <h4 className="featured-item-title">Node.js</h4>
+                        <img src="/images/NestJs.png" alt="nest.js" className="featured-item-icon" />
+                        <h4 className="featured-item-title">Nest.js</h4>
                         <p className="text-sm">
-                            작고 빠른 백엔드 앱에서 이제는 그 영역을 넓혀 스타트업들이 선호하는 기술로 자리잡은 Node.js는
-                            Javascript로 백엔드를 다룸으로써 단일 언어로 프론트와 백엔드를 아우룰 수 있는 기술로 선호되고 있습니다.
-                            최근에 개발했던 많은 프로젝트에서 주로 Node.js 위주로 개발을 많이 해왔습니다.
+                        Nest.js는 TypeScript를 사용하여 구축된 확장 가능하고 모듈화된 서버 사이드 애플리케이션을 빌드하기 위한 프레임워크입니다.
+                        특히 Node.js 기반에 TypeScript를 이용한 백엔드 프레임워크로 TypeORM과의 궁합이 좋고, 손쉽게 개발할 수 있는 CLI 기능을 제공하고 있어서
+                        최근에 특히 주류로 활용하고 있는 기술입니다.
                         </p>
                     </div>
                 </div>
@@ -39,6 +39,40 @@ const MiddleSection = () => {
                             이제는 프론트엔드 개발에서 빼놓을 수 없는 타입스크립트는, 자바스크립트의 부족한 부분을 채워주는
                             역할로 확실하게 자리매김하여, 거의 모든 회사들이 선호하는 언어가 되어가고 있습니다.
                             최근에 진행했던 거의 모든 프론트엔드 프로젝트에서 타입스크립트를 적용해 진행했습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-12 col-md-4">
+                    <div className="feature-item">
+                        <img src="/images/core_node.png" alt="node.js" className="featured-item-icon" />
+                        <h4 className="featured-item-title">Node.js</h4>
+                        <p className="text-sm">
+                            작고 빠른 백엔드 앱에서 이제는 그 영역을 넓혀 스타트업들이 선호하는 기술로 자리잡은 Node.js는
+                            Javascript로 백엔드를 다룸으로써 단일 언어로 프론트와 백엔드를 아우룰 수 있는 기술로 선호되고 있습니다.
+                            최근에 개발했던 많은 프로젝트에서 주로 Node.js 위주로 개발을 많이 해왔습니다.
+                        </p>
+                    </div>
+                </div>
+                <div className="col-12 col-md-4">
+                    <div className="feature-item">
+                        <img src="/images/entityframework.png" alt="Entityframework" className="featured-item-icon" />
+                        <h4 className="featured-item-title">EntityFramework</h4>
+                        <p className="text-sm">
+                        닷넷 기술을 보다 강력하게 만들어주는 대표적인 ORM인 EntityFramework는, 처음 만났던 2014년도에도 그 철학에 사료되었던 기술입니다.
+                        EntityFramework와 Linq, Lambda의 만남은 C#의 코드를 더욱 아름답게 만들어주며, 이는 코드를 직관적으로 유지하는데 탁월한 역량을 발휘합니다.
+                        </p>
+                    </div>
+                </div>
+                <div className="col-12 col-md-4">
+                    <div className="feature-item">
+                        <img src="/images/typeorm.png" alt="typeorm" className="featured-item-icon" />
+                        <h4 className="featured-item-title">TypeORM, Sequelize</h4>
+                        <p className="text-sm">
+                        닷넷에 EntityFramework가 있다면, Node.js 에는 TypeORM과 Sequelize가 있다고 할 수 있습니다. 둘 다 EntityFramework와 유사한 철학적 구조를 가지고 있으며
+                        Sequelize는 JavaScript기반의 Node.js에서, TypeORM은 TypeScript 기반의 Nest.js에서 주로 활용하고 있습니다.
                         </p>
                     </div>
                 </div>

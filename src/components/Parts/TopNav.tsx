@@ -13,7 +13,7 @@ const TopNavPart = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="https://roslyndev.github.io" target="_blank">Roslyn</a>
+                    <a className="nav-link" href="https://roslyndev.github.io" target="_blank">Portfolio</a>
                 </li>
             </ul>
         </div>
