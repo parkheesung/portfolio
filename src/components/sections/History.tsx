@@ -50,16 +50,24 @@ const HistorySection = () => {
 
             <section className="cd-timeline js-cd-timeline">
                 <div className="cd-timeline__container">
-                <div className="cd-timeline__block js-cd-block">
+                    <div className="cd-timeline__block js-cd-block">
+                        <div className="cd-timeline__milestone"> </div>
+                        <div className="cd-timeline__content js-cd-content">
+                            <div className="cd-timeline__date">2024.3</div>
+                            <h4>CloudHospital <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
+                            <p><a href="#" target="_blank">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>
+                            <p><a href="https://duendesoftware.com/products/identityserver" target="_blank">oAuth 2.0 인증서버</a>  - <code>Duende IdentityServer</code></p>
+                        </div>
+                    </div>
+                    <div className="cd-timeline__block js-cd-block">
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2023.9</div>
-                            <h4>Alporter <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
+                            <h4>프리랜서</h4>
+                            <p><a href="#">디지털AI교과서</a>  - <code>Vue.js, Spring Boot</code></p>
                             <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, Nest.js, TypeORM</code></p>
-                            <p><a href="https://office.alporter.co.kr">통합관리자</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
+                            <p><a href="https://office.alporter.co.kr">물류추적 통합관리자</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
                             <p><a href="https://contract.alporter.co.kr">온라인견적서</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
-                            <p><a href="#">Homepage</a>  - <code>React.js, Nest.js</code></p>
-                            <p><a href="#">Api Hub</a> WebService - <code>ASP.NET, EntityFramework</code></p>
                             <p><a href="#">PDA</a> RFID Reader App - <code>Android, Java</code></p>
                         </div>
                     </div>
