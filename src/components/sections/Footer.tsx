@@ -10,22 +10,22 @@ const FooterSection = () => {
 
                     <ul className="social__links">
                         <li>
-                            <a href="https://www.facebook.com/Roslyn.dev" target="_blank">
+                            <a href="https://www.facebook.com/Roslyn.dev" target="_blank" rel="noreferrer">
                             <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/roslyn_dev" target="_blank">
+                            <a href="https://twitter.com/roslyn_dev" target="_blank" rel="noreferrer">
                             <i className="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://roslyndev.tistory.com" target="_blank">
+                            <a href="https://roslyndev.tistory.com" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-blog"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/roslyndev" target="_blank"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/roslyndev" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                         </li>
                     </ul>
                 </div>

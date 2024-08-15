@@ -6,7 +6,7 @@ const TopNavPart = () => {
         <a className="navbar-brand" href="/">
             <img src="/images/logo.png" alt="logo" />
         </a>
-        <a className="navbar-toggler" href="https://roslyndev.github.io" target="_blank">
+        <a className="navbar-toggler" href="https://roslyndev.github.io" target="_blank" rel="noreferrer">
             <i className="fa-solid fa-share-from-square"></i>
         </a>
 

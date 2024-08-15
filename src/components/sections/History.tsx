@@ -55,8 +55,8 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2024.3</div>
                             <h4>CloudHospital <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="#" target="_blank">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>
-                            <p><a href="https://duendesoftware.com/products/identityserver" target="_blank">oAuth 2.0 인증서버</a>  - <code>Duende IdentityServer</code></p>
+                            <p><a href="#" target="_blank" rel="noreferrer">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>
+                            <p><a href="https://duendesoftware.com/products/identityserver" target="_blank" rel="noreferrer">oAuth 2.0 인증서버</a>  - <code>Duende IdentityServer</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -76,16 +76,16 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2022.3</div>
                             <h4>Eyemcast <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="http://deepinspection.ai" target="_blank">DeepInspection</a> Backend API - <code>Node.js, Sequelize, React.js</code></p>
-                            <p><a href="http://www.drcmedia.co.kr" target="_blank">Drcmedia</a> VR media Player - <code>Unity3D, C#</code>
+                            <p><a href="http://deepinspection.ai" target="_blank" rel="noreferrer">DeepInspection</a> Backend API - <code>Node.js, Sequelize, React.js</code></p>
+                            <p><a href="http://www.drcmedia.co.kr" target="_blank" rel="noreferrer">Drcmedia</a> VR media Player - <code>Unity3D, C#</code>
                             <button type="button" className="popup" data-value="/images/portfolio/Group 26.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Backend API - <code>Node.js, Sequelize</code></p>
-                            <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Manager System - <code>React.js</code></p>
-                            <p><a href="https://diveroid.com" target="_blank">Diveroid</a> Custom Chart - <code>D3.js</code> 
+                            <p><a href="https://diveroid.com" target="_blank" rel="noreferrer">Diveroid</a> Backend API - <code>Node.js, Sequelize</code></p>
+                            <p><a href="https://diveroid.com" target="_blank" rel="noreferrer">Diveroid</a> Manager System - <code>React.js</code></p>
+                            <p><a href="https://diveroid.com" target="_blank" rel="noreferrer">Diveroid</a> Custom Chart - <code>D3.js</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/screen_chart_diveroid.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="https://lomin.ai" target="_blank">Lomin</a> Document Control UI - <code>JQuery</code></p>
+                            <p><a href="https://lomin.ai" target="_blank" rel="noreferrer">Lomin</a> Document Control UI - <code>JQuery</code></p>
                             <p><a href="#">LifeSensor</a> Back API - <code>Node.js, Sequelize, Socket.io</code></p>
                         </div>
                     </div>
@@ -113,13 +113,13 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2017.4</div>
                             <h4>UVC <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="http://www.sgcenergy.co.kr" target="_blank">SGC Energy</a> 원격검침 - <code>ASP.NET, SignalR</code> 
+                            <p><a href="http://www.sgcenergy.co.kr" target="_blank" rel="noreferrer">SGC Energy</a> 원격검침 - <code>ASP.NET, SignalR</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/RMMS_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="http://www.sgcenergy.co.kr" target="_blank">SGC Energy</a> Transport vehicle weighing - <code>C#, WPF</code> 
+                            <p><a href="http://www.sgcenergy.co.kr" target="_blank" rel="noreferrer">SGC Energy</a> Transport vehicle weighing - <code>C#, WPF</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/wpf.jpg" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="http://www.sgcenergy.co.kr" target="_blank">SGC Energy</a> 52시간 근태관리 - <code>ASP.NET</code></p>
+                            <p><a href="http://www.sgcenergy.co.kr" target="_blank" rel="noreferrer">SGC Energy</a> 52시간 근태관리 - <code>ASP.NET</code></p>
                             <p><a href="#">SmartFactory</a> 스마트팩토리 구축사업 - <code>C#</code></p>
                             <p><a href="#">SmartFactory</a> OPC-UA R&D - <code>C#</code></p>
                         </div>
@@ -137,10 +137,10 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2014.12</div>
                             <h4>Inet-school <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="http://www.dreamson.co.kr" target="_blank">DreamsOn Edu</a> 영어인강서비스 - <code>ASP.NET</code> 
+                            <p><a href="http://www.dreamson.co.kr" target="_blank" rel="noreferrer">DreamsOn Edu</a> 영어인강서비스 - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/Dreamson_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="https://www.g2b.go.kr/index.jsp" target="_blank">나라장터</a> Crawling - <code>C#</code></p>
+                            <p><a href="https://www.g2b.go.kr/index.jsp" target="_blank" rel="noreferrer">나라장터</a> Crawling - <code>C#</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
