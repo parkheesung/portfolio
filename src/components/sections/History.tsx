@@ -55,7 +55,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2024.3</div>
                             <h4>CloudHospital <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="#" target="_blank" rel="noreferrer">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>
+                            <p><a href="#!" target="_blank" rel="noreferrer">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>
                             <p><a href="https://duendesoftware.com/products/identityserver" target="_blank" rel="noreferrer">oAuth 2.0 인증서버</a>  - <code>Duende IdentityServer</code></p>
                         </div>
                     </div>
@@ -64,11 +64,11 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2023.9</div>
                             <h4>프리랜서</h4>
-                            <p><a href="#">디지털AI교과서</a>  - <code>Vue.js, Spring Boot</code></p>
+                            <p><a href="#!">디지털AI교과서</a>  - <code>Vue.js, Spring Boot</code></p>
                             <p><a href="https://tracker.alporter.co.kr">Tracking Servise</a> - <code>Vue.js, Nest.js, TypeORM</code></p>
                             <p><a href="https://office.alporter.co.kr">물류추적 통합관리자</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
                             <p><a href="https://contract.alporter.co.kr">온라인견적서</a>  - <code>Vue.js, Nest.js, TypeORM</code></p>
-                            <p><a href="#">PDA</a> RFID Reader App - <code>Android, Java</code></p>
+                            <p><a href="#!">PDA</a> RFID Reader App - <code>Android, Java</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -86,7 +86,7 @@ const HistorySection = () => {
                             <button type="button" className="popup" data-value="/images/portfolio/screen_chart_diveroid.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                             <p><a href="https://lomin.ai" target="_blank" rel="noreferrer">Lomin</a> Document Control UI - <code>JQuery</code></p>
-                            <p><a href="#">LifeSensor</a> Back API - <code>Node.js, Sequelize, Socket.io</code></p>
+                            <p><a href="#!">LifeSensor</a> Back API - <code>Node.js, Sequelize, Socket.io</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -95,17 +95,17 @@ const HistorySection = () => {
                             <div className="cd-timeline__date">2019.12</div>
                             <h4>Exmaru</h4>
                             <p><a href="https://www.merrytoktok.com">MerryTokTok</a> Total Community - <code>React.js, Vue.js, Crawling</code></p>
-                            <p><a href="#">Muse</a> WebService - <code>ASP.NET, SignalR</code></p>
-                            <p><a href="#">Muse</a> Background Service - <code>C#</code></p>
-                            <p><a href="#">Muse</a> AI Keras LSTM - <code>Python, Tensorflow, Keras</code></p>
-                            <p><a href="#">SmartFactory</a> Remote Monitoring - <code>C#</code></p>
-                            <p><a href="#">Golfbox</a> Mobile App - <code>Xamarin</code>
+                            <p><a href="#!">Muse</a> WebService - <code>ASP.NET, SignalR</code></p>
+                            <p><a href="#!">Muse</a> Background Service - <code>C#</code></p>
+                            <p><a href="#!">Muse</a> AI Keras LSTM - <code>Python, Tensorflow, Keras</code></p>
+                            <p><a href="#!">SmartFactory</a> Remote Monitoring - <code>C#</code></p>
+                            <p><a href="#!">Golfbox</a> Mobile App - <code>Xamarin</code>
                             <button type="button" className="popup" data-value="/images/portfolio/golfbox_01.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="#">서울대병원</a> 심박수측정웹서비스 - <code>Node.js, JQuery</code>
+                            <p><a href="#!">서울대병원</a> 심박수측정웹서비스 - <code>Node.js, JQuery</code>
                             <button type="button" className="popup" data-value="/images/portfolio/SeoulHospital.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="#">Various agencies</a> Custom Homepage - <code>React.js, Node.js</code></p>
+                            <p><a href="#!">Various agencies</a> Custom Homepage - <code>React.js, Node.js</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -120,8 +120,8 @@ const HistorySection = () => {
                             <button type="button" className="popup" data-value="/images/portfolio/wpf.jpg" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                             <p><a href="http://www.sgcenergy.co.kr" target="_blank" rel="noreferrer">SGC Energy</a> 52시간 근태관리 - <code>ASP.NET</code></p>
-                            <p><a href="#">SmartFactory</a> 스마트팩토리 구축사업 - <code>C#</code></p>
-                            <p><a href="#">SmartFactory</a> OPC-UA R&D - <code>C#</code></p>
+                            <p><a href="#!">SmartFactory</a> 스마트팩토리 구축사업 - <code>C#</code></p>
+                            <p><a href="#!">SmartFactory</a> OPC-UA R&D - <code>C#</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -129,7 +129,7 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2016.7</div>
                             <h4>이야기마루</h4>
-                            <p><a href="#">제주대산학연</a> Education Android App - <code>Android, ActionScript</code></p>
+                            <p><a href="#!">제주대산학연</a> Education Android App - <code>Android, ActionScript</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -148,8 +148,8 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2012.4</div>
                             <h4 className="m-0">Netdiver <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="#">미래선도과제</a> 미래부 R&D 과제(2년) - <code>ASP.NET, Android</code></p>
-                            <p><a href="#">삼성/LG등 대기업</a> Facebook App - <code>ASP.NET</code> 
+                            <p><a href="#!">미래선도과제</a> 미래부 R&D 과제(2년) - <code>ASP.NET, Android</code></p>
+                            <p><a href="#!">삼성/LG등 대기업</a> Facebook App - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/Facebook.png" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
                         </div>
@@ -159,11 +159,11 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2011.3</div>
                             <h4>Inet-school <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
-                            <p><a href="#">Studymap</a> 자기주도학습 - <code>ASP.NET</code></p>
-                            <p><a href="#">Selfgong.com</a> 조선일보 자기주도학습 - <code>ASP.NET</code> 
+                            <p><a href="#!">Studymap</a> 자기주도학습 - <code>ASP.NET</code></p>
+                            <p><a href="#!">Selfgong.com</a> 조선일보 자기주도학습 - <code>ASP.NET</code> 
                             <button type="button" className="popup" data-value="/images/portfolio/selfgong_02.gif" onClick={fnPopup}><i className="fa fa-search"></i></button>
                             </p>
-                            <p><a href="#">학습진단검사</a> 학습진단 테스트 - <code>ASP.NET</code></p>
+                            <p><a href="#!">학습진단검사</a> 학습진단 테스트 - <code>ASP.NET</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -171,10 +171,10 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2006.12</div>
                             <h4 className="m-0">단기계약직</h4>
-                            <p><a href="#">링크빌</a> 전자세금계산서 <code>ASP, Soap</code></p>
-                            <p><a href="#">(주)화미</a> SCM대량 수발주 시스템 - <code>ASP</code></p>
-                            <p><a href="#">Weltizen</a> 다이어트 솔루션 - <code>ASP</code></p>
-                            <p><a href="#">Weltizen</a> Blog, Diary - <code>ASP</code></p>
+                            <p><a href="#!">링크빌</a> 전자세금계산서 <code>ASP, Soap</code></p>
+                            <p><a href="#!">(주)화미</a> SCM대량 수발주 시스템 - <code>ASP</code></p>
+                            <p><a href="#!">Weltizen</a> 다이어트 솔루션 - <code>ASP</code></p>
+                            <p><a href="#!">Weltizen</a> Blog, Diary - <code>ASP</code></p>
                         </div>
                     </div>
                     <div className="cd-timeline__block js-cd-block">
@@ -182,8 +182,8 @@ const HistorySection = () => {
                         <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2004.10</div>
                             <h4>Read-bank Inc</h4>
-                            <p><a href="#">Boobank</a> 도서쇼핑몰 - <code>ASP</code></p>
-                            <p><a href="#">cosmoi.co.kr</a> 독서논술서비스 - <code>ASP</code></p>
+                            <p><a href="#!">Boobank</a> 도서쇼핑몰 - <code>ASP</code></p>
+                            <p><a href="#!">cosmoi.co.kr</a> 독서논술서비스 - <code>ASP</code></p>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const MiddleGraySection = () => {
             <div className="row">
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             Performance
                             </h6>
@@ -23,7 +23,7 @@ const MiddleGraySection = () => {
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             Communication
                             </h6>
@@ -37,7 +37,7 @@ const MiddleGraySection = () => {
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             Pursuit of profit
                             </h6>
@@ -50,7 +50,7 @@ const MiddleGraySection = () => {
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             Leadership
                             </h6>
@@ -64,7 +64,7 @@ const MiddleGraySection = () => {
 
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             Predictable
                             </h6>
@@ -77,7 +77,7 @@ const MiddleGraySection = () => {
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="blog-list-item">
-                        <a href="#">
+                        <a href="#!">
                             <h6 className="text-info text-uppercase">
                             No religious or political 
                             </h6>
