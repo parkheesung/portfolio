@@ -94,7 +94,7 @@ const MiddleSection = () => {
                 <div className="col-12 col-md-4">
                     <div className="feature-item">
                         <img src="/images/core_react.png" alt="react.js" className="featured-item-icon" />
-                        <h4 className="featured-item-title">React.js</h4>
+                        <h4 className="featured-item-title">Next.js & React.js</h4>
                         <p className="text-sm">
                             현재 한국에서 가장 인기있는 Frontend 기술로써, 모듈화된 개발 방식으로 단순했던 프론트엔드 시장을 뜨겁게 달군 핫이슈이기에
                             저 역시도 React.js 를 시작으로 프론트엔드를 시작했습니다.
@@ -105,7 +105,7 @@ const MiddleSection = () => {
                 <div className="col-12 col-md-4">
                     <div className="feature-item">
                         <img src="/images/vuejs.png" alt="vuejs" className="featured-item-icon" />
-                        <h4 className="featured-item-title">Vue.js</h4>
+                        <h4 className="featured-item-title">Nuxt.js & Vue.js</h4>
                         <p className="text-sm">
                             최근에는 React.js보다 Vue.js를 더 선호하는 방향으로 선회되고 있는데, 이는 유지보수가 편하다는 장점때문입니다.
                             대기업과 관공서 위주의 프로젝트에서는 거의 Vue.js가 주류가 되어 가고 있는 추세속에서, 타입스크립트와 매끄럽게 연결되는 점도 장점입니다.

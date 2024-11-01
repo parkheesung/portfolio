@@ -53,6 +53,15 @@ const HistorySection = () => {
                     <div className="cd-timeline__block js-cd-block">
                         <div className="cd-timeline__milestone"> </div>
                         <div className="cd-timeline__content js-cd-content">
+                            <div className="cd-timeline__date">2024.9</div>
+                            <h4>프리랜서</h4>
+                            <p><a href="#!">삼성전자 반도체사업부</a> 인증관리서비스  - <code>ASP.NET</code></p>
+                            <p><a href="https://www.gn2studio.com" target="_blank">GN2Studio</a> <span style={{ 'color':'#FFF','fontSize' : '10px', 'backgroundColor':'#333', 'borderRadius':'1rem','padding':'2px 5px' }}>CloseBeta</span> 인공지능웹소설플랫폼  - <code>Nuxt.js</code></p>
+                        </div>
+                    </div>
+                    <div className="cd-timeline__block js-cd-block">
+                        <div className="cd-timeline__milestone"> </div>
+                        <div className="cd-timeline__content js-cd-content">
                             <div className="cd-timeline__date">2024.3</div>
                             <h4>CloudHospital <small style={{ fontSize : '0.7rem' }}>Co.,Ltd.</small></h4>
                             <p><a href="#!" target="_blank" rel="noreferrer">AI ChatBot</a> Backend API - <code>Azure GPT</code></p>

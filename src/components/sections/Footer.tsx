@@ -10,7 +10,7 @@ const FooterSection = () => {
 
                     <ul className="social__links">
                         <li>
-                            <a href="https://www.facebook.com/Roslyn.dev" target="_blank" rel="noreferrer">
+                            <a href="https://www.facebook.com/parkheesung.dev" target="_blank" rel="noreferrer">
                             <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
